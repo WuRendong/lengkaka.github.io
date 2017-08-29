@@ -13,6 +13,30 @@ body {
 
 p {
     font-family: angry;
-    font-color: white;
-    font-size: 4em;
+    color: yellow;
+
+}
+
+@media screen and (min-width: 992px) {
+	p {
+	    font-size: 4em;
+	}
+}
+
+@media screen and (max-width: 991px) {
+	p {
+	    font-size: 3em;
+	}
+}
+
+@media screen and (max-width: 800px) {
+	p {
+	    font-size: 2em;
+	}
+}
+
+@media screen and (max-width: 550px) {
+	p {
+	    font-size: 1.5em;
+	}
 }
